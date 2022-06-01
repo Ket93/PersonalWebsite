@@ -1,0 +1,79 @@
+.aboutContainer {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.gradPic {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.aboutDescriptionDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.75);
+    right: 13vw;
+    width: 32vw;
+}
+
+.aboutHeading {
+    color: white;
+    padding: 20px 70px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.aboutText {
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.jobTitleText {
+    color: rgb(62, 215, 229);
+}
+
+@media (max-width: 1080px) {
+    .aboutHeading {
+        font-size: 32px;
+    }
+
+    .aboutText {
+        font-size: 16px;
+    }
+
+    .aboutDescriptionDiv {
+        right: 10vw;
+        width: 40vw;
+    }
+
+    .gradPic {
+        content: url("../../images/kevingradpiccrop.jpg");
+    }
+
+    .aboutContainer {
+        height: 140vh;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .aboutDescriptionDiv {
+        right: 18vw;
+        width: 60vw;
+    }
+
+    .gradPic {
+        content: url("../../images/kevingradpiccrop.jpg");
+    }
+}

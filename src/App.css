@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+.divider {
+    height: 12em;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.mainNav {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.navContainer {
+    background: rgb(40, 40, 40) !important;
+    margin: 0px !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.navLink {
+    margin-left: 3vw !important;
+    font-size: 21px;
+    color: white !important;
+}
+
+.navLink:hover {
+    color: #12c8ff !important;
+    transform: translateY(-3px);
+}
+
+.navLogo {
+    margin-left: 20px;
+}
+
+.navLinkContainer {
+    margin-right: 7vw !important;
+}
