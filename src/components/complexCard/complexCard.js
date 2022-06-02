@@ -15,7 +15,7 @@ class ComplexCard extends Component {
 
 
         return (
-            <Card className="cardContainer" sx={{ maxWidth: 350 }}>
+            <Card className="cardContainer" sx={{ maxWidth: 380 }}>
                 <CardMedia
                     component="img"
                     alt="green iguana"

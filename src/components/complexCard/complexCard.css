@@ -18,6 +18,7 @@
 }
 
 .cardContainer {
+    width: 330px;
     border: 12px solid rgb(38, 38, 38);
     font-weight: bold;
     color: white;
